@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+   
+   
+    <header>
+      <div class="background-color">
+        <h1>Cafe "Colibri"</h1>
+      </div>
+       <nav>
+          <ul>
+            <il><a href=#about>Опис</a></il>
+            <il><a href=#menu>Меню</a></il>
+            <il><a href=#geo>Місцезнаходження</a></il>
+            <il><a href=#contact>Наші соц. мережі</a></il>
+
+          </ul>
+       </nav> 
+    </header>
+
+    
+    <section id="about">
+        <article>
+          <h2>Ласкаво просимо до нашого кафе – куточка затишку і смаку!
+            Наш заклад – це ідеальне місце для тих, хто цінує смачну їжу, ароматну каву та приємну атмосферу. Ми пропонуємо:
+            Затишний інтер'єр: теплі кольори, комфортні меблі та приємна музика створять чудовий настрій.
+            Смачне меню: від класичних страв до авторських десертів – кожна страва готується з любов'ю та лише зі свіжих продуктів.
+            Напої для будь-якого настрою: ароматна кава, освіжаючі лимонади, чаювання з душею.
+            Дружня атмосфера: наші гості – це наші друзі. Ми завжди раді вашим візитам!
+            Приходьте, щоб насолодитися смачними стравами, провести час із близькими або просто відпочити за чашкою кави. Наше кафе – це місце, куди хочеться повертатися!</h2>
+
+        </article>
+    </section> 
+    <section id="menu">
+        <h3>Напої</h3>
+        <article>
+           <img src="ca.jpg">
+           <img src="orandzad.jpg">
+           <img src="tea.jpg">
+           <img src="matcha.jpg">
+           <img src="lmonade.jpg">
+           <img src="capo.jpg">
+        </article>
+    </section>
+    <section id="menu2">
+        <h4>Десерти</h4>
+        <article>
+            <img src="resized_1 (1).jpg">
+            <img src="cake.jpg">
+            <img src="resized_2 (1).jpg">
+            <img src="resized_2.jpg">
+            <img src="resized_3 (1).jpg">
+            <img src="resized_3.jpg">
+        </article>
+    </section>
+    <section id="geo">
+        <h4>Місцезнаходження</h4>
+        <div class="map-reservation-container">
+            <div class="map-container">
+              <div class="frame-title">Розположення на карті</div>
+         <iframe src="https://www.google.com/maps/d/embed?mid=1l6CaZiAbemW3bY85xhLvDXaiboc2jBU&ehbc=2E312F" width="640" height="480"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+        <div class="form-container">
+         <form action="/submit" method="POST" enctype="multipart/form-data">
+              <fieldset>
+                 <legend>Бажаєте замовити місце</legend>
+                 <label for="your_name">Ваше ім'я та прізвище</label>
+                 <input type="text" id="your_name" name="your_name" required>
+                 <label for="your_numder">Ваш номер телефону</label>
+                 <input type="text" id="your_numder" name="your_numder" required>
+                 <label>Кількість людей</label>
+                 <div class="number_of_people">
+                    <div>
+                        <input type="radio" id="number_of_people1" name="number_of_people" value="number_of_people">
+                        <label for="number_of_people">1</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="number_of_people2" name="number_of_people" value="number_of_people">
+                        <label for="number_of_people">2-4</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="number_of_people3" name="number_of_people" value="number_of_people">
+                        <label for="number_of_people">4-8</label>
+                    </div>
+                </div>
+                <label></label>
+			        <div class="conditions-container">
+				<label><input type="checkbox" id="condition" name="condition" value="condition"> Я погоджуюся із умовами</label>
+			
+			       </div>
+                  <input type="submit" value="Надіслати">
+              </fieldset>
+         </form>
+         
+        </div>
+    </div>
+    <section id ="contact">
+        <h5>Наші соц. мережі</h5>
+        <a href="https://youtube.com" target="_blank"><img class="contact-img" src="YouTube_social_white_square_(2017).svg.png" alt="YouTube"></a>
+        <a href="https://instagram.com" target="_blank"><img class="contact-img" src="8ZWTR2LDTKNVe0jUavwb2g.webp" alt="Instagram"></a>
+        <a href="https://facebook.com" target="_blank"><img class="contact-img" src="Facebook.webp" alt="Facebook"></a>
+    </section>
+    <section class="reviews">  
+        <h6>Інформація</h6>
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+    <div class="elfsight-app-df788be5-ad16-4d7c-a649-83638e59d232" data-elfsight-app-lazy></div>
+     
+     
+       <script src="https://static.elfsight.com/platform/platform.js" async></script>
+    <div class="elfsight-app-c26a1c58-be0f-4f12-963c-71da16357f27" data-elfsight-app-lazy></div>
+</section>      
+<footer>
+    <p>&copy; 2025 Cafe "Colibri". Всі права захищені.</p>
+</footer>
+</body>
+</html>
